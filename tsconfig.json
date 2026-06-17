@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/proctoin"
+    },
+    {
+      "path": "./libs/ui"
+    },
+    {
+      "path": "./apps/server"
+    },
+    {
+      "path": "./libs/events-manager"
+    },
+    {
+      "path": "./libs/events"
+    }
+  ]
+}
